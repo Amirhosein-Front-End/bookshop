@@ -1,0 +1,73 @@
+.cartpagecontainer {
+  width: 90%;
+  max-width: 1600px;
+  margin: 100px auto 500px;
+  border-radius: 8px;
+}
+.cartbookinfo {
+  display: flex;
+  flex-direction: column;
+}
+.payment {
+  /* margin-top: 40px; */
+  margin: 40px auto 0;
+  padding: 15px;
+  font-size: 12px;
+  line-height: 25px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px;
+  max-width: 350px;
+}
+.payment h4 {
+  color: blue;
+}
+.payment h4 span {
+  color: black;
+}
+.paymentbtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.paymentbtn button {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  width: 90px;
+  border-radius: 5px;
+}
+.paymentbtn a {
+  text-decoration: none;
+  color: green;
+  font-family: vazir;
+}
+.paymentbtn a:hover {
+  color: purple;
+}
+
+@media screen and (min-width: 768px) {
+  .cartpagecontainer {
+    display: flex;
+    align-items: center;
+  }
+  .cartbookinfo {
+    width: 70%;
+    margin-left: 10px;
+  }
+  .payment {
+    width: 30%;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cartpagecontainer {
+    margin: 70px auto;
+    width: 80%;
+  }
+}

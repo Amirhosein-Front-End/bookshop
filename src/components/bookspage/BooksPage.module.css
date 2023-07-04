@@ -1,0 +1,19 @@
+.bookspagecontainer {
+  width: 90%;
+  max-width: 1600px;
+  margin: 100px auto;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 992px) {
+  .bookspagecontainer {
+    margin: 70px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bookspagecontainer {
+    justify-content: space-around;
+    align-items: center;
+  }
+}

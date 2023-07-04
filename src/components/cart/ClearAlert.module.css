@@ -1,0 +1,35 @@
+.container {
+  margin: 110px auto;
+  /* max-width: 510px; */
+  width: 90%;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid green;
+  border-radius: 15px;
+  box-shadow: 0 0 15px lightgreen;
+  background-color: white;
+  color: green;
+  margin-top: 250px;
+  margin-bottom: 420px;
+}
+.contents h2 {
+  margin: 0 10px;
+}
+.btn button {
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid;
+  font-family: inherit;
+  background-color: white;
+  color: red;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+.btn button:hover {
+  color: green;
+}

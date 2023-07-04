@@ -1,0 +1,74 @@
+.article {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  /* background-color: red; */
+}
+.container {
+  border: 1px solid lightgray;
+  box-shadow: 0 0 5px;
+  border-radius: 8px;
+  max-width: 150px;
+  height: 307px;
+  padding: 8px;
+  background-color: white;
+}
+.container .coverphoto {
+  text-align: center;
+}
+.coverphoto img {
+  max-width: 140px;
+  min-height: 210px;
+  border-radius: 8px;
+}
+.info {
+  margin-bottom: 5px;
+}
+.price {
+  margin-top: 5px;
+}
+.price .discount {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.hide {
+  font-size: 10px;
+  color: gray;
+  text-decoration: line-through;
+}
+.show {
+  font-size: 15px;
+  color: green;
+  text-align: left;
+}
+.percent {
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 4px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: -18px;
+  transform: rotate(-35deg);
+}
+.withoutDiscount span {
+  color: green;
+  font-size: 15px;
+  margin-top: 15px;
+  display: block;
+  text-align: left;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+  /* color: rgb(51, 49, 49); */
+}
+
+@media screen and (max-width: 380px) {
+  .article {
+    width: 100% !important;
+  }
+}

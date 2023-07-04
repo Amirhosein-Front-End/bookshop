@@ -1,0 +1,97 @@
+.bookcardcontainer {
+  min-height: 390px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.container {
+  width: 220px;
+  min-height: 330px;
+  position: relative;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 12px black;
+  transition: all ease 0.3s;
+}
+.container:hover {
+  box-shadow: 0 0 12px purple;
+}
+.cardinfo {
+  margin-top: 130px;
+}
+.cardinfo .details {
+  padding: 5px 8px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price > span {
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+.discountedprice {
+  padding: 5px 8px;
+}
+.discountedprice div:nth-child(3) {
+  padding: 2px;
+  border-radius: 5px;
+  color: green;
+}
+.discountedprice div:nth-child(1) {
+  text-align: left;
+  padding: 2px;
+  border-radius: 5px;
+  color: gray;
+  text-decoration: line-through;
+}
+.discountedprice div:nth-child(3) span:nth-child(2) {
+  position: absolute;
+  bottom: 58px;
+  right: 20px;
+  color: white;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 100%;
+  background-color: red;
+}
+.bookcardsdetails {
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bookcardsdetails a {
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+.bookcardsdetails a:hover {
+  background-color: rgb(23, 23, 116);
+}
+.coverphoto img {
+  width: 120px;
+  height: 170px;
+  position: absolute;
+  top: -40px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.coverphoto {
+  margin: 0 50px;
+}
+.withoutdiscountedprice {
+  padding: 5px 8px;
+  color: green;
+  margin-top: 30px;
+  height: 30px;
+}
+@media screen and (min-width: 992px) {
+  .container:hover .coverphoto img {
+    top: -60px;
+  }
+}

@@ -1,0 +1,28 @@
+.container {
+  margin-top: 100px;
+  margin: 100px auto 0;
+  max-width: 1600px;
+}
+.container .notfound {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 207px;
+}
+.container .searchresult {
+  margin: 50px 60px;
+  box-shadow: 0 0 12px lightgreen;
+  padding: 10px;
+  border-radius: 8px;
+  color: green;
+  text-align: center;
+}
+@media screen and (min-width: 990px) {
+  .container {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 720px) {
+  .container, .notfound {
+    margin-bottom: 245px;
+  }
+}

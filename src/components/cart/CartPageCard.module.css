@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5px;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.cartcardinfo h4 {
+  color: blue;
+  font-size: 13px;
+}
+.cartcardinfo h5 {
+  color: green;
+  font-size: 12px;
+}
+.container .cartimage img {
+  width: 50px;
+}
+.container .counterbtn button {
+  width: 30px;
+  height: 28px;
+  background-color: blue;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.container .counterbtn button img {
+  width: 13px;
+}
+.container .bookcounter span {
+  display: block;
+  text-align: center;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: orange;
+}
+@media screen and (min-width: 768px) {
+  
+}

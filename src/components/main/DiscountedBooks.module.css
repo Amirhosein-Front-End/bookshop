@@ -1,0 +1,36 @@
+.wrapper {
+  width: 90%;
+  max-width: 1280px;
+  margin: 60px auto;
+  background-color: wheat;
+  border-radius: 8px;
+  box-shadow: 0 0 5px;
+}
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  border-radius: 8px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.title h3 {
+  border-bottom: 1px solid;
+  width: fit-content;
+}
+.details {
+  text-align: left;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+.details a {
+  border-radius: 8px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  transition: all ease 0.3s;
+}
+.details a:hover {
+  color: blue;
+}

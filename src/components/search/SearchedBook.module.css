@@ -1,0 +1,67 @@
+.container {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.info .book {
+  display: flex;
+  align-items: center;
+  color: green;
+}
+.btn {
+  margin-right: auto;
+  margin-left: 10px;
+}
+.btn button {
+  width: 70px;
+  height: 23px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+.btn button:hover {
+  background-color: rgb(50, 50, 255);
+}
+.info img {
+  border-radius: 8px;
+}
+.data {
+  margin-right: 30px;
+}
+@media screen and (min-width: 460px) {
+  .info {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 760px) {
+  .info {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .btn {
+    margin-left: 50px;
+  }
+  .book {
+    padding: 20px;
+  }
+}

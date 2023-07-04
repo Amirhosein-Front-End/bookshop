@@ -1,0 +1,22 @@
+.container {
+  margin: 100px auto 204px;
+  max-width: 1600px;
+}
+.container h1 {
+  margin: 160px 60px;
+  box-shadow: 0 0 12px lightgreen;
+  padding: 10px;
+  border-radius: 8px;
+  color: green;
+  text-align: center;
+}
+@media screen and (min-width: 200px) and (max-width: 720px) {
+  .container h1 {
+    margin: 315px 60px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .container {
+    margin-top: 30px;
+  }
+}

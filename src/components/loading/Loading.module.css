@@ -1,0 +1,43 @@
+.container {
+    width: 100px;
+    height: 25px;
+    margin: 200px auto;
+    position: relative;
+}
+.container div {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: grey;
+    position: absolute;
+    animation-name: loading;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.container h5 {
+    position: absolute;
+    bottom: -150%;
+    width: 100px;
+    text-align: center;
+}
+.circle2 {
+    right: 37px;
+    animation-delay: 0.5s;
+}
+.circle3 {
+    right: 74px;
+    animation-delay: 1s;
+}
+
+@keyframes loading {
+    0% {
+        background-color: grey;
+    }
+    30% {
+        background-color: rgb(87, 81, 81);
+    }
+    100% {
+        background-color: grey;
+    }
+}
